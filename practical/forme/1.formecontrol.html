@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formecontrol</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container-fluid  border border-5 border border-king">
+      <label for="exampleFormControlInput1" class="form-label"
+        >Email address</label
+      >
+      <input
+        type="email"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="name@example.com"
+      />
+    </div>
+    <div class="container-fluid  border border-5 border border-jack">
+      <label for="exampleFormControlTextarea1" class="form-label"
+        >Example textarea</label
+      >
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3"
+      ></textarea>
+    </div>
+    <div class="container-fluid  border border-5 border border-success">
+      <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input
+          type="text"
+          readonly
+          class="form-control-plaintext"
+          id="staticEmail"
+          value="email@example.com"
+        />
+      </div>
+    </div>
+    <div class="container-fluid  border border-5 border border-danger">
+      <label for="inputPassword" class="col-sm-2 col-form-label"
+        >Password</label
+      >
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword" />
+      </div>
+    </div>
+
+    <form class="container-fluid  border border-5 border border-dark">
+      <div class="col-auto">
+        <label for="staticEmail2" class="visually-hidden">Email</label>
+        <input
+          type="text"
+          readonly
+          class="form-control-plaintext"
+          id="staticEmail2"
+          value="email@example.com"
+        />
+      </div>
+      <div class="container-fluid  border border-5 border border-primary">
+        <label for="inputPassword2" class="visually-hidden">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="inputPassword2"
+          placeholder="Password"
+        />
+      </div>
+      <div class="container-fluid  border border-5 border border-info">
+        <button type="submit" class="btn btn-primary mb-3">
+          Confirm identity
+        </button>
+      </div>
+    </form>
+
+    <h1>File input</h1>
+    <div class="container-fluid  border border-5 border border-danger ">
+      <label for="formFile" class="form-label"
+        >Default file input example</label
+      >
+      <input class="form-control" type="file" id="formFile" />
+    </div>
+    <div class="container-fluid">
+      <label for="formFileMultiple" class="form-label"
+        >Multiple files input example</label
+      >
+      <input class="form-control" type="file" id="formFileMultiple" multiple />
+    </div>
+    <div class="container-fluid  border border-5 border border-dark">
+      <label for="formFileDisabled" class="form-label"
+        >Disabled file input example</label
+      >
+      <input class="form-control" type="file" id="formFileDisabled" disabled />
+    </div>
+    <div class="container-fluid  border border-5 border border-dark">
+      <label for="formFileSm" class="form-label"
+        >Small file input example</label
+      >
+      <input class="form-control form-control-sm" id="formFileSm" type="file" />
+    </div>
+    <div>
+      <label for="formFileLg" class="form-label"
+        >Large file input example</label
+      >
+      <input class="form-control form-control-lg" id="formFileLg" type="file" />
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
